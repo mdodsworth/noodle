@@ -1,0 +1,30 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                      http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<parent>
+    <groupId>com.noodle</groupId>
+    <artifactId>noodle</artifactId>
+    <version>0.2-beta</version>
+  </parent>
+
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.noodle</groupId>
+  <artifactId>noodle-server</artifactId>
+  <packaging>jar</packaging>
+  <version>0.2-beta</version>
+  <name>noodle server module</name>
+  <url>http://maven.apache.org</url>
+  <dependencies>
+<dependency>
+    <groupId>org.eclipse.jetty.aggregate</groupId>
+    <artifactId>jetty-server</artifactId>
+    <version>7.1.6.v20100715</version>
+</dependency>
+		<dependency>
+      <groupId>com.noodle</groupId>
+      <artifactId>noodle-common</artifactId>
+      <version>0.2-beta</version>
+    </dependency>
+  </dependencies>
+</project>
