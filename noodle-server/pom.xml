@@ -23,7 +23,7 @@
         </dependency>
         <dependency>
             <groupId>com.noodle</groupId>
-            <artifactId>noodle-common</artifactId>
+            <artifactId>noodle-api</artifactId>
             <version>0.2-beta</version>
         </dependency>
     </dependencies>
