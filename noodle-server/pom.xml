@@ -22,8 +22,8 @@
             <version>7.1.6.v20100715</version>
         </dependency>
         <dependency>
-            <groupId>com.noodle</groupId>
-            <artifactId>noodle-api</artifactId>
+            <groupId>com.noodle.core</groupId>
+            <artifactId>noodle-core</artifactId>
             <version>0.2-beta</version>
         </dependency>
     </dependencies>

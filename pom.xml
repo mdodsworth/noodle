@@ -9,8 +9,7 @@
     <artifactId>noodle</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>noodle-common</module>
+        <module>noodle-core</module>
         <module>noodle-server</module>
-        <module>noodle-api</module>
     </modules>
 </project>
