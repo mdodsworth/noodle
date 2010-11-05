@@ -11,7 +11,6 @@
     
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.noodle.core</groupId>
-    <version>0.2-beta</version>
     <artifactId>noodle-core</artifactId>
     <packaging>pom</packaging>
     <modules>

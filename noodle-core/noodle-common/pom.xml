@@ -9,12 +9,10 @@
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.noodle</groupId>
+    <groupId>com.noodle.core</groupId>
     <artifactId>noodle-common</artifactId>
-    <packaging>jar</packaging>
-    <version>0.2-beta</version>
+    <packaging>pom</packaging>
     <name>noodle common module</name>
-    <url>http://maven.apache.org</url>
     <dependencies>
         <dependency>
             <groupId>com.google.inject</groupId>

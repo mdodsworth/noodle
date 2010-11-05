@@ -11,11 +11,16 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.noodle</groupId>
     <artifactId>noodle-server</artifactId>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
     <version>0.2-beta</version>
     <name>noodle server module</name>
     <url>http://maven.apache.org</url>
     <dependencies>
+        <dependency>
+            <groupId>com.google.inject</groupId>
+            <artifactId>guice</artifactId>
+            <version>2.0</version>
+        </dependency>
         <dependency>
             <groupId>org.eclipse.jetty.aggregate</groupId>
             <artifactId>jetty-server</artifactId>
@@ -25,6 +30,7 @@
             <groupId>com.noodle.core</groupId>
             <artifactId>noodle-core</artifactId>
             <version>0.2-beta</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 </project>

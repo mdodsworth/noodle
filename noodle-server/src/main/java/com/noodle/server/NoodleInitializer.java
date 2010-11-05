@@ -1,5 +1,8 @@
 package com.noodle.server;
 
+import com.google.inject.Guice;
+import com.noodle.core.NoodleCoreModule;
+
 /**
  * Entry point for server initialization
  *
@@ -17,5 +20,6 @@ public final class NoodleInitializer {
     public static void main(String[] args) {
 
         // initialize guice
+        Guice.createInjector(new NoodleCoreModule());
     }
 }

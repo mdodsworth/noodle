@@ -10,12 +10,8 @@
     </parent>
     
     <modelVersion>4.0.0</modelVersion>
+    <groupId>com.noodle.core</groupId>
+    <packaging>pom</packaging>
     <artifactId>noodle-core-impl</artifactId>
-    <dependencies>
-        <dependency>
-            <groupId>com.noodle</groupId>
-            <artifactId>noodle-common</artifactId>
-            <version>0.2-beta</version>
-        </dependency>
-    </dependencies>
+   
 </project>
