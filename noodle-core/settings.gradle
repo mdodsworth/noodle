@@ -1,0 +1,1 @@
+include 'noodle-common', 'noodle-core-api', 'noodle-core-impl'

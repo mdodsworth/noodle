@@ -1,0 +1,5 @@
+dependsOn(':noodle-core-api')
+
+dependencies {
+    compile project(':noodle-core-api')
+}

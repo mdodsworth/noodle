@@ -1,2 +1,8 @@
 # ignore intellij .iml files
 *.iml
+
+# ignore .gradle files
+.gradle
+
+# ignore build dirs
+build
