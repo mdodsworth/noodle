@@ -1,0 +1,3 @@
+dependencies {
+    compile project(':noodle-core-api'), project(':noodle-core-impl'), project(':noodle-common')
+}

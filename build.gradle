@@ -1,6 +1,7 @@
 dependsOnChildren()
 
 subprojects {
+
     apply plugin: 'java'
 
     sourceCompatibility = 1.6
