@@ -1,4 +1,3 @@
-
 dependencies {
-    compile group: 'com.google.inject', name: 'guice', version: '2.0'
+    compile group: 'com.google.inject', name: 'guice', version: '2.+'
 }
